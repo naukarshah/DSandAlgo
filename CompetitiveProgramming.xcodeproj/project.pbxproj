@@ -7,7 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		544F02F72440E26A00E6D776 /* LCSfast.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 544F02F52440E26A00E6D776 /* LCSfast.cpp */; };
+		544F02FA244120F000E6D776 /* dp12.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 544F02F8244120F000E6D776 /* dp12.cpp */; };
+		544F02FD24413F9600E6D776 /* Graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 544F02FB24413F9600E6D776 /* Graph.cpp */; };
+		544F03002441952200E6D776 /* nikitastring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 544F02FE2441952200E6D776 /* nikitastring.cpp */; };
 		5481128E243EDA03000B036C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5481128D243EDA03000B036C /* main.cpp */; };
+		54811296243EEA89000B036C /* pathInGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 54811294243EEA89000B036C /* pathInGrid.cpp */; };
+		54811299243F6AFE000B036C /* knapsack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 54811297243F6AFE000B036C /* knapsack.cpp */; };
+		5481129C243F6C39000B036C /* longestincreasingsequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5481129A243F6C39000B036C /* longestincreasingsequence.cpp */; };
+		5481129F243F6EF9000B036C /* LevenshteinDistance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5481129D243F6EF9000B036C /* LevenshteinDistance.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +31,24 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		544F02F52440E26A00E6D776 /* LCSfast.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LCSfast.cpp; sourceTree = "<group>"; };
+		544F02F62440E26A00E6D776 /* LCSfast.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LCSfast.hpp; sourceTree = "<group>"; };
+		544F02F8244120F000E6D776 /* dp12.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dp12.cpp; sourceTree = "<group>"; };
+		544F02F9244120F000E6D776 /* dp12.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = dp12.hpp; sourceTree = "<group>"; };
+		544F02FB24413F9600E6D776 /* Graph.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Graph.cpp; sourceTree = "<group>"; };
+		544F02FC24413F9600E6D776 /* Graph.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Graph.hpp; sourceTree = "<group>"; };
+		544F02FE2441952200E6D776 /* nikitastring.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = nikitastring.cpp; sourceTree = "<group>"; };
+		544F02FF2441952200E6D776 /* nikitastring.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = nikitastring.hpp; sourceTree = "<group>"; };
 		5481128A243EDA03000B036C /* CompetitiveProgramming */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CompetitiveProgramming; sourceTree = BUILT_PRODUCTS_DIR; };
 		5481128D243EDA03000B036C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		54811294243EEA89000B036C /* pathInGrid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pathInGrid.cpp; sourceTree = "<group>"; };
+		54811295243EEA89000B036C /* pathInGrid.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = pathInGrid.hpp; sourceTree = "<group>"; };
+		54811297243F6AFE000B036C /* knapsack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = knapsack.cpp; sourceTree = "<group>"; };
+		54811298243F6AFE000B036C /* knapsack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = knapsack.hpp; sourceTree = "<group>"; };
+		5481129A243F6C39000B036C /* longestincreasingsequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = longestincreasingsequence.cpp; sourceTree = "<group>"; };
+		5481129B243F6C39000B036C /* longestincreasingsequence.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = longestincreasingsequence.hpp; sourceTree = "<group>"; };
+		5481129D243F6EF9000B036C /* LevenshteinDistance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LevenshteinDistance.cpp; sourceTree = "<group>"; };
+		5481129E243F6EF9000B036C /* LevenshteinDistance.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LevenshteinDistance.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,22 @@
 			isa = PBXGroup;
 			children = (
 				5481128D243EDA03000B036C /* main.cpp */,
+				54811294243EEA89000B036C /* pathInGrid.cpp */,
+				54811295243EEA89000B036C /* pathInGrid.hpp */,
+				54811297243F6AFE000B036C /* knapsack.cpp */,
+				54811298243F6AFE000B036C /* knapsack.hpp */,
+				5481129A243F6C39000B036C /* longestincreasingsequence.cpp */,
+				5481129B243F6C39000B036C /* longestincreasingsequence.hpp */,
+				5481129D243F6EF9000B036C /* LevenshteinDistance.cpp */,
+				5481129E243F6EF9000B036C /* LevenshteinDistance.hpp */,
+				544F02F52440E26A00E6D776 /* LCSfast.cpp */,
+				544F02F62440E26A00E6D776 /* LCSfast.hpp */,
+				544F02F8244120F000E6D776 /* dp12.cpp */,
+				544F02F9244120F000E6D776 /* dp12.hpp */,
+				544F02FB24413F9600E6D776 /* Graph.cpp */,
+				544F02FC24413F9600E6D776 /* Graph.hpp */,
+				544F02FE2441952200E6D776 /* nikitastring.cpp */,
+				544F02FF2441952200E6D776 /* nikitastring.hpp */,
 			);
 			path = CompetitiveProgramming;
 			sourceTree = "<group>";
@@ -119,7 +159,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5481129F243F6EF9000B036C /* LevenshteinDistance.cpp in Sources */,
 				5481128E243EDA03000B036C /* main.cpp in Sources */,
+				544F02F72440E26A00E6D776 /* LCSfast.cpp in Sources */,
+				54811296243EEA89000B036C /* pathInGrid.cpp in Sources */,
+				544F02FD24413F9600E6D776 /* Graph.cpp in Sources */,
+				544F03002441952200E6D776 /* nikitastring.cpp in Sources */,
+				5481129C243F6C39000B036C /* longestincreasingsequence.cpp in Sources */,
+				54811299243F6AFE000B036C /* knapsack.cpp in Sources */,
+				544F02FA244120F000E6D776 /* dp12.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
