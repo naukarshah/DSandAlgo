@@ -10,7 +10,7 @@
 		544F02F72440E26A00E6D776 /* LCSfast.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 544F02F52440E26A00E6D776 /* LCSfast.cpp */; };
 		544F02FA244120F000E6D776 /* dp12.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 544F02F8244120F000E6D776 /* dp12.cpp */; };
 		544F02FD24413F9600E6D776 /* Graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 544F02FB24413F9600E6D776 /* Graph.cpp */; };
-		544F03002441952200E6D776 /* nikitastring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 544F02FE2441952200E6D776 /* nikitastring.cpp */; };
+		544F0303244207B800E6D776 /* RBLtree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 544F0301244207B800E6D776 /* RBLtree.cpp */; };
 		5481128E243EDA03000B036C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5481128D243EDA03000B036C /* main.cpp */; };
 		54811296243EEA89000B036C /* pathInGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 54811294243EEA89000B036C /* pathInGrid.cpp */; };
 		54811299243F6AFE000B036C /* knapsack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 54811297243F6AFE000B036C /* knapsack.cpp */; };
@@ -37,8 +37,8 @@
 		544F02F9244120F000E6D776 /* dp12.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = dp12.hpp; sourceTree = "<group>"; };
 		544F02FB24413F9600E6D776 /* Graph.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Graph.cpp; sourceTree = "<group>"; };
 		544F02FC24413F9600E6D776 /* Graph.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Graph.hpp; sourceTree = "<group>"; };
-		544F02FE2441952200E6D776 /* nikitastring.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = nikitastring.cpp; sourceTree = "<group>"; };
-		544F02FF2441952200E6D776 /* nikitastring.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = nikitastring.hpp; sourceTree = "<group>"; };
+		544F0301244207B800E6D776 /* RBLtree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RBLtree.cpp; sourceTree = "<group>"; };
+		544F0302244207B800E6D776 /* RBLtree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RBLtree.hpp; sourceTree = "<group>"; };
 		5481128A243EDA03000B036C /* CompetitiveProgramming */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CompetitiveProgramming; sourceTree = BUILT_PRODUCTS_DIR; };
 		5481128D243EDA03000B036C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		54811294243EEA89000B036C /* pathInGrid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pathInGrid.cpp; sourceTree = "<group>"; };
@@ -96,8 +96,8 @@
 				544F02F9244120F000E6D776 /* dp12.hpp */,
 				544F02FB24413F9600E6D776 /* Graph.cpp */,
 				544F02FC24413F9600E6D776 /* Graph.hpp */,
-				544F02FE2441952200E6D776 /* nikitastring.cpp */,
-				544F02FF2441952200E6D776 /* nikitastring.hpp */,
+				544F0301244207B800E6D776 /* RBLtree.cpp */,
+				544F0302244207B800E6D776 /* RBLtree.hpp */,
 			);
 			path = CompetitiveProgramming;
 			sourceTree = "<group>";
@@ -164,9 +164,9 @@
 				544F02F72440E26A00E6D776 /* LCSfast.cpp in Sources */,
 				54811296243EEA89000B036C /* pathInGrid.cpp in Sources */,
 				544F02FD24413F9600E6D776 /* Graph.cpp in Sources */,
-				544F03002441952200E6D776 /* nikitastring.cpp in Sources */,
 				5481129C243F6C39000B036C /* longestincreasingsequence.cpp in Sources */,
 				54811299243F6AFE000B036C /* knapsack.cpp in Sources */,
+				544F0303244207B800E6D776 /* RBLtree.cpp in Sources */,
 				544F02FA244120F000E6D776 /* dp12.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,7 +11,7 @@
 #include <map>
 #include <set>
 #include <queue>
-#include "Graph.hpp"
+#include "RBLtree.hpp"
 
 using namespace std;
 
@@ -22,30 +22,21 @@ int main(int argc, const char * argv[]) {
     ios::sync_with_stdio(0);
     int n,input;
     cin >> n;
-    BST bs;
+     RBT _rbt;
     for (int i= 0; i < n; i++) {
         cin>>input;
         //create a new struct by allocating memory in the heap
-        BSTnode * node = new BSTnode;
+        RBTnode * node = new RBTnode;
         //full the data in the tree
-        node->data = input;
+        node->color = _rbt.BLACK;
+        node->key = input;
+        node->parent = nullptr;
         node->left = nullptr;
         node->right = nullptr;
-        node->parent = nullptr;
-        //go for the insertion
-        bs.Insert(node);
+        _rbt.Insertion(node);
     }
-    int key;
-    cin >> key;
-    BSTnode * node = bs.TreeSearch(key);
-    if (node != nullptr) {
-        cout << " Key exists in the tree " << node->data << endl;
-    }
-    else
-        cout << " No Such Key found in Tree\n";
     
-    cout << "minimum key in the tree is " << bs.TreeMin()->data<< endl;
-    cout << "maximum key in the tree is " << bs.TreeMax()->data<<endl;
+    _rbt.InorderTraversal(_rbt.root);
 
     return 0;
 }
